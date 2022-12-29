@@ -1,0 +1,38 @@
+.error-main {
+    background-color: #191919;
+    border-width: 1px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 20%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto' sans-serif;
+}
+
+.error-header {
+    font-weight: bold;
+}
+
+.error-name {
+    color: #F2C87D;
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.error-msg {
+    font-size: 48px;
+    color: white;
+}
+
+.error-response {
+    color: white;
+    font-size: 18px;
+}

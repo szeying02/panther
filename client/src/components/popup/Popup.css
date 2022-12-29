@@ -1,0 +1,152 @@
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.popup-box {
+    margin-top: 71.5px;
+    padding: 5%;
+    align-items: center;
+}
+
+.popup-content {
+    position: relative;
+    padding: 16px;
+    background-color: #191919;
+    border-radius: 8px;
+    border: solid #545454;
+    border-width: 2px;
+    color: white;
+    font-family: 'Roboto' sans-serif;
+}
+
+.popup-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.popup-close-button:hover {
+    cursor: pointer;
+}
+
+.popup-purpose {
+    margin: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+    border-bottom: solid #545454;
+    font-weight: bold;
+}
+
+.popup-body {
+    margin-left: 16px;
+    margin-right: 32px;
+}
+
+.popup-section-title {
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.popup-section-title input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Roboto' sans-serif;
+    font-size: 15px;
+}
+
+.popup-input-title {
+    background-color: #191919;
+    outline: none;
+    border: solid #545454;
+    border-width: 0.5px;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+}
+
+.popup-input-title::placeholder {
+    color: #737373;
+    font-size: 14px;
+}
+
+.popup-input-title:focus {
+    border: solid white;
+    border-width: 1px;
+}
+
+.popup-error-msg {
+    color: #F2C87D;
+    font-size: 12px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.popup-section-category {
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+DropdownButton {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.popup-section-content {
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.popup-textarea-content {
+    background-color: #191919;
+    outline: none;
+    border: solid #545454;
+    border-width: 0.5px;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    height: 100px;
+}
+
+.popup-textarea-content::placeholder {
+    color: #737373;
+    font-size: 14px;
+}
+
+.popup-textarea-content:focus {
+    border: solid white;
+    border-width: 1px;
+}
+
+.popup-section-error {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14;
+    text-align: left;
+    color: #F2C87D;
+    font-weight: bold;
+}
+
+.popup-submit-button {
+    border: none;
+    text-align: center;
+    padding: 1% 3%;
+    background-color: #F2C87D;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    border-radius: 4px;
+}

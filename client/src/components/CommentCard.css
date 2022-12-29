@@ -1,0 +1,60 @@
+.commentcard-main {
+    background-color: #191919;
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+
+.commentcard-container { 
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: solid #737373;
+    border-width: 1px;
+}
+
+.commentcard-body {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.commentcard-username-datetime {
+    color: #A6A6A6;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.commentcard-comment {
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+    white-space: pre-line;
+}
+
+.commentcard-original-poster {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.commentcard-icon {
+    font-weight: bold;
+    scale: 1.1;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-bottom: 16px;
+}
+
+.commentcard-modifiable {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 24px;
+}
+
+.commentcard-modifiable:hover {
+    cursor: pointer;
+}

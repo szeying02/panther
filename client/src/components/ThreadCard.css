@@ -1,0 +1,91 @@
+.threadcard-container {
+    margin: 22px;
+}
+
+.threadcard-link-container {
+    text-decoration: none;
+}
+
+.threadcard-card {
+    background-color: #191919;
+    color: white;
+    border-radius: 8px;
+    border: solid #737373;
+    border-width: 1px;
+    font-family: 'Roboto' sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.threadcard-card:hover {
+    border: solid white;
+    border-width: 1px;
+}
+
+.threadcard-link-container:visited {
+    color: inherit;
+}
+
+.threadcard-body {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.threadcard-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    line-height: 25px;
+    vertical-align: text-bottom;
+    padding-top: 8px;
+}
+
+.threadcard-category {
+    font-size: 18px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.threadcard-username-datetime {
+    color: #A6A6A6;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.threadcard-title {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 8px;
+    word-break: break-word;
+}
+
+.threadcard-content {
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 12px;
+    word-break: break-word;
+    white-space: pre-line;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.threadcard-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: #A6A6A6;
+    font-size: 16px;
+}
+
+.threadcard-comment-icon {
+    font-weight: bold;
+    scale: 1.1;
+    vertical-align: middle;
+    padding-right: 12px;
+    padding-bottom: 16px;
+}
+

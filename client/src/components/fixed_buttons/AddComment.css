@@ -1,0 +1,18 @@
+.addcomment-button {
+    font-family: 'Roboto' sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #545454;
+    color: white;
+    border-radius: 16px;
+    position: fixed; 
+    padding: 12px;
+    bottom: 120px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+}
+
+.addcomment-button:hover {
+    cursor: pointer;
+}
